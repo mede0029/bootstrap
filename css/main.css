@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	line-height: 1.6;
+	font-family: 'Quicksand', 'Helvetica', sans-serif;
+}
+
+html,
+body {
+	background-color: #ACD995;
+	color: #083A06;
+}
+
+h1 {
+	font-family: 'Bitter', 'Droid Serif', serif;
+	font-size: 70px;
+	font-weight: bolder;
+	padding: 1rem 2rem;
+	color: #083A06;
+}
+
+p {
+	padding: 1rem 2rem;
+}
+
+h2 {
+	font-family: 'Bitter', 'Droid Serif', serif;
+	font-size: 27px;
+	color: #056B32;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Bitter', 'Droid Serif', serif;
+	font-size: 23px;
+	color: #056B32;
+	font-weight: bold;
+}
+
+nav ul {
+/*	padding: 1rem 0;*/
+}
+
+nav li:hover{
+	font-weight: bolder;
+	color: white;
+}
+
+nav li > a {
+	display: block;
+	text-decoration: none;
+	border-bottom: 0.2rem solid #0BD996;
+	padding: 0.2rem 2rem;
+	color: #056B32;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	border-top: 0.5rem solid #056B32;	
+}
+
+footer p {
+	font-size: 1rem;
+	padding: 2rem;
+	color: #083A06;
+	font-weight: bolder;
+	display: block;
+	margin: auto;
+}
+
+footer img {
+	padding: 30px;
+	margin: auto;
+	float: right;
+}
+
+footer img:hover {
+	filter: invert(100%) drop-shadow(8px 8px 10px #083A06) ;
+}
+
+.text-center {	
+	margin: 40px;	
+}
+
+form{
+	margin: 40px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
